@@ -1,9 +1,9 @@
-# react-and-express-survey-Verse
+# React and Express Survey App
 App Onboarding Survey
 
 A React application, which uses a Node.js Express backend to provide data for the Survey questions.
 Application retrieves data from database (MongoDB).
-1st stage of development - just a simple question/answer example - doesn't calculate results yet.
+This is a first stage of development - straightforward question-and-answer interface for demonstration and testing and does not yet calculate results.
 
 
 # Starting Database:
@@ -11,20 +11,21 @@ Application retrieves data from database (MongoDB).
 - import dump file to Database (survey_db.survey_data.json)
 
 ## Start Database:
-if on Windows OS, in \mongodb\bin folder:
- - execute mongod.exe file
- - execute mongo.exe file
+If on Windows OS, in \mongodb\bin folder:
+ - Execute mongod.exe file.
+ - Execute mongo.exe file.
 
-if on Unix OS in command line run:
+If on Unix OS in command line run:
  - ./mongod
  - ./mongo
 
 
 # Starting Application:
-## After installation of appropriate modules for both: backend and frontend run respectively:
-- in backend folder:
+## After installing the required modules, start the backend and frontend as follows:
+
+- In backend folder:
   node app.js
-- in frontend folder:
+- In frontend folder:
   npm start
 
 # Database dump file
